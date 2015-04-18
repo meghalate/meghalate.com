@@ -1,0 +1,19 @@
+#dev {
+   -moz-animation-delay: 2s;
+  -webkit-animation-delay: 2s;
+
+
+}
+
+.pos{
+	position:relative;
+	top:-143px;
+}
+
+
+#dev1,#dev2 {
+-moz-animation-delay: 3s;
+  -webkit-animation-delay: 3s;
+-webkit-animation-duration: 3s;
+-moz-animation-duration: 3s;
+}
