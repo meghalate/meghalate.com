@@ -18,5 +18,8 @@
   "homepage": "https://github.com/meghalate/meghalate.com",
   "devDependencies": {
     "express": "^4.12.3"
+  },
+  "dependencies": {
+    "express": "^4.12.3"
   }
 }
