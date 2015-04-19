@@ -22,25 +22,13 @@
       <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
     <![endif]-->
   </head>
-  <body>
-
-<main class="bs-docs-masthead" id="content" role="main" tabindex="-1">
-  <div class="container">
-<span id="dev1" class="bs-docs-booticon bs-docs-booticon-lg bs-docs-booticon-outline animated fadeOut">M</span>
-    <img id="dev2" src="megha.jpeg" class="animated fadeIn img-rounded" height="140px" width="140px" style="position:relative;top:-173px;"></img>
-    <p class="lead animated fadeInDownBig pos">Megha Late</p>
-<p id="dev" class="lead animated pulse pos"> Software Developer,Irvine CA</p>
-    <p class="lead pos">
-      <a href="getting-started#download" class="btn btn-outline-inverse btn-lg" onclick="ga('send', 'event', 'Jumbotron actions', 'Download', 'Download 3.3.4');">Profile</a>
-    </p>
-
-  </div>
-</main>
-
-
-
+  <body ng-app="megha">
+<div ng-view></div>
     <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.2/jquery.min.js"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.4.0-rc.0/angular.min.js"></script>
+<script src="//ajax.googleapis.com/ajax/libs/angularjs/1.4.0-rc.0/angular-route.js"></script>
+    <script src="app.js"></script>
 <!-- Latest compiled and minified JavaScript -->
 <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.4/js/bootstrap.min.js"></script>
   </body>
